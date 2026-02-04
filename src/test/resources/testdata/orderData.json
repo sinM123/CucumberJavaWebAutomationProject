@@ -1,0 +1,23 @@
+[
+	{
+		"veggies": [
+			"Brocolli - 1 Kg", "Cucumber - 1 Kg", "Tomato - 1 Kg"
+		],
+		"checkoutTitle": "GreenKart - veg and fruits kart",
+		"thankYouMessage": "Thank you, your order has been placed successfully\nYou'll be redirected to Home page shortly!!"
+	},
+	{
+			"veggies": [
+				"Brocolli - 1 Kg"
+			],
+			"checkoutTitle": "GreenKart - veg and fruits kart",
+			"thankYouMessage": "Thank you, your order has been placed successfully\nYou'll be redirected to Home page shortly!!"
+	},
+	{
+			"veggies": [
+				"Tomato - 1 Kg"
+			],
+			"checkoutTitle": "GreenKart - veg and fruits kart",
+			"thankYouMessage": "QWERTY!!"
+	}
+]

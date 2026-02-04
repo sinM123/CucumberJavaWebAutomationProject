@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<suite name="United web automation project">
+
+
+
+<test name="Cucumber Tests">
+ <parameter name="cucumber.filter.tags" value="@e2e"/>
+
+<classes>
+<class name="com.united.runners.TestRunner"/>
+<class name="com.united.runners.ReRunFailedScenario"/>
+</classes>
+
+</test>
+
+
+</suite>
+
