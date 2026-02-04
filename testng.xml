@@ -6,7 +6,7 @@
 
 
 <test name="Cucumber Tests">
- <parameter name="cucumber.filter.tags" value="@e2e"/>
+ <parameter name="cucumber.filter.tags" value="@negative"/>
 
 <classes>
 <class name="com.united.runners.TestRunner"/>
