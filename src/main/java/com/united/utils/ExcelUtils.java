@@ -20,7 +20,7 @@ public class ExcelUtils {
 	
 	public static OrderData readExcelUtil(String testCaseID) throws IOException {
 		
-		File file = new File(System.getProperty("user.dir") + "\\src\\test\\resources\\testdata\\cartData.xlsx");
+		File file = new File(System.getProperty("user.dir") + "/src/test/resources/testdata/cartData.xlsx");
 		try {
 			try (FileInputStream fis = new FileInputStream(file);
 					Workbook workbook = new XSSFWorkbook(fis)) {
